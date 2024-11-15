@@ -60,6 +60,8 @@ async def on_startup(dp):
     except Exception as e:
         logging.error(f"Failed to send startup notification: {e}")
 
+
+
 async def on_shutdown(dp):
     try:
         logging.info("Bot is shutting down...")
